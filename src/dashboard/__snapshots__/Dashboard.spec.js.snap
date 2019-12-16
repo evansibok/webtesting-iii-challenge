@@ -1,6 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders without crashing 1`] = `
+exports[`Close Gate works properly on "Close Gate" click "Open" changes to "Closed" 1`] = `
+<div>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Dashboard Component renders without crashing matches previous snapshot 1`] = `
 <div>
   <div
     class="display panel"
